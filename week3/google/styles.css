@@ -1,0 +1,9 @@
+/* The old way of doing horizontal layout */
+/* li {
+    display:inline;
+} */
+
+/* the modern way of doing horizontal layouts (using flex)   */
+ul {
+    display: flex;
+}

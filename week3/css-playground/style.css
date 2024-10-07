@@ -1,0 +1,28 @@
+/* 
+Order of procedures
+1. Inline styles
+2. Internal styles
+3. External styles
+*/
+
+html {
+    font-family:"Arial", sans-serif
+}
+
+p {
+    color:purple;
+    background-color: chartreuse;
+}
+
+.middle-p {
+    color:pink;
+    text-align:center;
+}
+#main-text {
+    line-height: 30px;
+}
+.some {
+    color:white;
+    font-style:italic;
+    text-decoration: underline;
+}
