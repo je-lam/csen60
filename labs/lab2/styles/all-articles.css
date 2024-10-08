@@ -4,10 +4,10 @@ header {
 }
 
 input[type="search"] {
-  border-radius: ;
-  background-color: ;
-  border: ;
-  padding: ;
+  border-radius: 4px;
+  background-color: gray;
+  border: gray;
+  padding: 2rem;
 }
 
 article h1 a {
