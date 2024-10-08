@@ -26,8 +26,7 @@ article {
 
 a {
   text-decoration: none;
-  color: #569ffc;
-  font-weight:bold;
+  color: var(--accent-text);
 }
 
 p {
@@ -39,8 +38,21 @@ p {
   color:black;
 }
 
+/* this affects the search bar AND "Home"*/
 header {
-  background-color: #569ffc;
+  /* background-color: #569ffc; */
+  display: flex;
+  justify-content: end;
+  border-bottom:2px solid var(--accent-background);
+}
+
+input {
+  border-color:var(--dark-gray);
+  border-radius: 6px;
+  padding: 0.5rem;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 
 /**
@@ -60,6 +72,7 @@ ul.tags {
   padding-left: ;
 }
 
+/* These are the tags like "Moon" "Cheese" "Energy" */
 ul.tags li {
   border-radius: 4px;
   background-color: var(--gray);
@@ -76,15 +89,20 @@ ul.tags a {
 }
 
 /**
-  navigation
+  navigation (contains "Home")
 */
 nav {
   /* background color should be accent-background */
-  background-color: #2e86de;
+  background-color: var(--accent-background);
+  display:flex;
+  justify-content: end;
+  
 }
 
+/* "Home" text */
 nav ul {
   /* something should go here */
+  margin-right:1rem;
 }
 
 nav ul a {
