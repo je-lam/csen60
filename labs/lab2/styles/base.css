@@ -20,7 +20,7 @@ body {
 */
 
 ul.tags {
-  display: ;
+  display: flex;
   list-style: ;
 
   margin-top: ;
@@ -47,6 +47,7 @@ ul.tags a {
 */
 nav {
   /* background color should be accent-background */
+  background-color: #2e86de;
 }
 
 nav ul {
