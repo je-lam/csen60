@@ -21,6 +21,11 @@ footer {
     justify-content: space-between;
 }
 
+#climate-message {
+    display:flex;
+    gap:1rem;
+    align-items: center;
+}
 /*all buttons on the page will be styled in this fashion.*/
 button { 
     padding: 0.5rem 1rem; /*equivalent to 16px*/
