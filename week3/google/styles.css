@@ -16,13 +16,17 @@ header {
     justify-content: space-between;
 }
 
+img {
+    display:flex;
+}
+
 footer {
     display:flex;
     justify-content: space-between;
 }
 
 #climate-message {
-    display:flex;
+    /* display:flex; */
     gap:1rem;
     align-items: center;
 }
