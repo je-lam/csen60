@@ -17,7 +17,7 @@ header {
 }
 
 img {
-    display:flex;
+    display: flex;
 }
 
 input {
@@ -30,31 +30,31 @@ section {
 
 main {
     display: flex;
-    margin-top:5rem;
+    margin-top: 5rem;
     /* justify-content: center; */
     align-items: center;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 footer {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     /* grid-area:inherit; */
-    bottom:0;
-    position:absolute;
-    width:99%;
+    bottom: 0;
+    position: absolute;
+    width: 99%;
 }
 #climate-message {
     /* display:flex; */
-    gap:1rem;
+    gap: 1rem;
     align-items: center;
 }
 /*all buttons on the page will be styled in this fashion.*/
-button { 
+button {
     padding: 0.5rem 1rem; /*equivalent to 16px*/
     background-color: #f8f9fa;
-    border:1px solid #f8f9fa;
+    border: 1px solid #f8f9fa;
     border-radius: 4px;
-    cursor:pointer;
+    cursor: pointer;
 }
