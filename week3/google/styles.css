@@ -5,56 +5,61 @@
 
 /* the modern way of doing horizontal layouts (using flex)   */
 ul {
-    display: flex;
-    flex-direction: row; /*by default, display: flex has flex direction row*/
-    list-style: none;
-    gap: 16px;
+  display: flex;
+  flex-direction: row; /*by default, display: flex has flex direction row*/
+  list-style: none;
+  gap: 16px;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 img {
-    display:flex;
+  display: flex;
 }
 
 input {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 section {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 main {
-    display: flex;
-    margin-top:5rem;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction:column;
+  display: flex;
+  margin-top: 5rem;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
 }
 
+body {
+  height: 100vh;
+  display: grid;
+  margin: 0;
+}
 footer {
-    display:flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    /* grid-area:inherit; */
-    bottom:0;
-    position:absolute;
-    width:99%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* grid-area:inherit; */
+  /* bottom: 0;
+  position: absolute;
+  width: 99%; */
 }
 #climate-message {
-    /* display:flex; */
-    gap:1rem;
-    align-items: center;
+  /* display:flex; */
+  gap: 1rem;
+  align-items: center;
 }
 /*all buttons on the page will be styled in this fashion.*/
-button { 
-    padding: 0.5rem 1rem; /*equivalent to 16px*/
-    background-color: #f8f9fa;
-    border:1px solid #f8f9fa;
-    border-radius: 4px;
-    cursor:pointer;
+button {
+  padding: 0.5rem 1rem; /*equivalent to 16px*/
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
 }
