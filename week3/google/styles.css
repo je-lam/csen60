@@ -40,7 +40,10 @@ footer {
     display:flex;
     justify-content: space-between;
     flex-wrap:wrap;
-    vertical-align: bottom;
+    /* grid-area:inherit; */
+    bottom:0;
+    position:absolute;
+    width:99%;
 }
 #climate-message {
     /* display:flex; */
