@@ -20,11 +20,28 @@ img {
     display:flex;
 }
 
+input {
+    border-radius: 8px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+main {
+    display: flex;
+    margin-top:5rem;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction:column;
+}
+
 footer {
     display:flex;
     justify-content: space-between;
+    flex-wrap:wrap;
+    vertical-align: bottom;
 }
-
 #climate-message {
     /* display:flex; */
     gap:1rem;
