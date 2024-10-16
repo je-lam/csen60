@@ -14,17 +14,29 @@ body {
   padding: 0;
   width:100vw;
   height:100vh;
+  display:flex;
 }
 
 aside {
-  display:flex;
-  margin:auto;
-  flex-directio;
+  float:left;
+  background-color: var(--accent-background);
+  max-width: 35rem;
+}
+
+img {
+  display:inline;
 }
 
 article {
-  flex:50%;
-  margin-left:2rem;
+  display:flex;
+  flex:70%;
+  margin-left:15rem;
+  flex-direction: column;
+  
+}
+
+figcaption {
+  display:inline;
 }
 
 .column {
@@ -46,7 +58,7 @@ a {
 
 p {
   /* display:flex; */
-  max-width: 25rem;
+  max-width: 42rem;
 }
 
 #home {
@@ -56,9 +68,7 @@ p {
 /* this affects the search bar AND "Home"*/
 header {
   /* background-color: #569ffc; */
-  display: flex;
-  justify-content: end;
-  border-bottom:2px solid var(--accent-background);
+  display: block;
 }
 
 input {
@@ -76,7 +86,9 @@ input {
 
 ul {
   list-style: none;
+  display:flex;
 }
+
 
 ul.tags {
   display: flex;
@@ -84,6 +96,10 @@ ul.tags {
   margin-bottom: ;
   
   padding-left: 0;
+}
+
+figcaption {
+  text-align: center;
 }
 
 /* These are the tags like "Moon" "Cheese" "Energy" */
@@ -102,23 +118,31 @@ ul.tags a {
   color:var(--darkest-gray)
 }
 
-/**
-  navigation (contains "Home")
-*/
-nav {
-  /* background color should be accent-background */
-  background-color: var(--accent-background);
-  display:flex;
-  justify-content: end;
-  
+.profile {
+  border-radius: 50%;
+  width:15rem;
+  height:15rem;
+}
+
+h1 {
+  color: var(--accent-background-text);
 }
 
 /* "Home" text */
 nav ul {
   /* something should go here */
   margin-right:1rem;
+  display:inline;
+}
+li a {
+  display:block;
 }
 
-nav ul a {
-  /* color should be accent-background-text */
+ul li img {
+  width: 2rem;
+  height: 2rem;
+}
+
+ul {
+  margin-left: 2rem;
 }
