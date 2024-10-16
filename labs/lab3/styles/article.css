@@ -14,10 +14,17 @@ body {
   padding: 0;
 }
 
+h1 {
+  color: var(--accent-background-text);
+}
 main {
   padding: 2rem;
   display:flex;
   flex-wrap: wrap;
+}
+
+body nav ul {
+  display:flex;
 }
 
 article {
@@ -26,12 +33,17 @@ article {
 
 a {
   text-decoration: none;
-  color: var(--accent-text);
+  color: black;
 }
 
 p {
   /* display:flex; */
-  max-width: 25rem;
+  
+}
+
+article {
+  margin-left:25rem;
+  max-width: 40rem;
 }
 
 #home {
@@ -42,8 +54,11 @@ p {
 header {
   /* background-color: #569ffc; */
   display: flex;
-  justify-content: end;
-  border-bottom:2px solid var(--accent-background);
+  /* justify-content: end; */
+  /* border-bottom:2px solid var(--accent-background); */
+}
+header#top {
+  display:block;
 }
 
 input {
@@ -59,17 +74,16 @@ input {
   unordered list
 */
 
-ul {
-  list-style: none;
-  padding:0;
+ul li {
+  margin-right:1rem;
 }
 
 ul.tags {
   display: flex;
   margin-top: ;
   margin-bottom: ;
-  
-  padding-left: ;
+  list-style: none;
+  padding-left: 0;
 }
 
 /* These are the tags like "Moon" "Cheese" "Energy" */
@@ -77,15 +91,15 @@ ul.tags li {
   border-radius: 4px;
   background-color: var(--gray);
   /* background color should be --gray */
-  padding: 2px;
-  list-style: none;
+  padding: 2px 8px 2px 8px;
+  /* list-style: none; */
   margin-left: 0.25rem;
   margin-right: 0.25rem;
 }
 
 ul.tags a {
   /*color should be darkest-gray*/
-  color:var(--darkest-gray)
+  color:var(--darkest-gray);
 }
 
 /**
@@ -96,15 +110,17 @@ nav {
   background-color: var(--accent-background);
   display:flex;
   justify-content: end;
-  
 }
 
 /* "Home" text */
 nav ul {
   /* something should go here */
-  margin-right:1rem;
+  margin-right:0rem;
+  list-style: none;
+  display:inline;
 }
 
 nav ul a {
   /* color should be accent-background-text */
+  display:inline-block;
 }
