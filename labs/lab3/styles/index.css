@@ -84,9 +84,10 @@ input {
   unordered list
 */
 
-ul {
+figcaption ul {
   list-style: none;
   display:flex;
+  margin-left: 2rem;
 }
 
 
@@ -141,8 +142,4 @@ li a {
 ul li img {
   width: 2rem;
   height: 2rem;
-}
-
-ul {
-  margin-left: 2rem;
 }
