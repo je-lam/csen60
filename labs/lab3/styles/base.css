@@ -108,3 +108,8 @@ nav ul {
 nav ul a {
   /* color should be accent-background-text */
 }
+
+button.img{
+  width: 2rem-;
+  height: 2rem;
+}

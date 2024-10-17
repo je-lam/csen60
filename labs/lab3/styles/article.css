@@ -28,7 +28,8 @@ body nav ul {
 }
 
 article {
-  margin-left:2rem;
+  margin-left:25rem;
+  max-width: 40rem;
 }
 
 a {
@@ -36,15 +37,6 @@ a {
   color: black;
 }
 
-p {
-  /* display:flex; */
-  
-}
-
-article {
-  margin-left:25rem;
-  max-width: 40rem;
-}
 
 #home {
   color:black;
@@ -118,9 +110,43 @@ nav ul {
   margin-right:0rem;
   list-style: none;
   display:inline;
+  background-color: var(--accent-background);
 }
 
 nav ul a {
   /* color should be accent-background-text */
   display:inline-block;
+  
+}
+
+.highlight {
+  background-color: var(--accent-background);
+}
+
+.primary {
+  color:var(--accent-background);
+}
+
+footer nav {
+  background-color: white;
+}
+
+nav a {
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+}
+
+#previous-article::after {
+  margin-left:0.5rem;
+  content: ".";
+}
+
+#next-article::before {
+  margin-right:0.5rem;
+  content: ".";
+}
+
+button.img{
+  width: 2rem;
+  height: 2rem;
 }
