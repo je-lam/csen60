@@ -21,6 +21,7 @@ aside {
   float:left;
   background-color: var(--accent-background);
   max-width: 35rem;
+  align-content: center;
 }
 
 img {
