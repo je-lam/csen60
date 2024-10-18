@@ -38,6 +38,7 @@ article {
 
 figcaption {
   display:inline;
+  color: var(--accent-background-text);
 }
 
 .column {
@@ -125,10 +126,6 @@ ul.tags a {
   border-radius: 50%;
   width:15rem;
   height:15rem;
-}
-
-h1 {
-  color: var(--accent-background-text);
 }
 
 /* "Home" text */
