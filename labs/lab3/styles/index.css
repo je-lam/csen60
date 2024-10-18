@@ -25,7 +25,7 @@ aside {
 }
 
 img {
-  display:inline;
+  justify-content: center;
 }
 
 article {
@@ -50,8 +50,6 @@ main {
   display:flex;
   flex-wrap: wrap;
 }
-
-
 
 a {
   text-decoration: none;
@@ -81,10 +79,6 @@ input {
   margin-right: 2rem;
   margin-bottom: 1rem;
 }
-
-/**
-  unordered list
-*/
 
 figcaption ul {
   list-style: none;
@@ -132,6 +126,8 @@ ul.tags a {
   border-radius: 50%;
   width:15rem;
   height:15rem;
+  align-content: center;
+  display:flex;
 }
 
 /* "Home" text */
@@ -151,7 +147,6 @@ nav ul li {
 .secondary {
   color:var(--darkest-gray);
 }
-
 
 li a {
   display:block;
