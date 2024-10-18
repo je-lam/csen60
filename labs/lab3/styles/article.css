@@ -136,14 +136,19 @@ nav a {
   margin-right:0.5rem;
 }
 
+.secondary {
+  color:var(--darkest-gray);
+}
+
 #previous-article::after {
   margin-left:0.5rem;
-  content: ".";
+  content: "∙";
 }
 
 #next-article::before {
   margin-right:0.5rem;
-  content: ".";
+  color:var(--darkest-gray);
+  content: "∙";
 }
 
 button.img{

@@ -88,6 +88,7 @@ input {
 figcaption ul {
   list-style: none;
   display:flex;
+  flex-direction: row;
   margin-left: 2rem;
 }
 
@@ -134,8 +135,13 @@ h1 {
 nav ul {
   /* something should go here */
   margin-right:1rem;
-  display:inline;
+  display:flex;
+  list-style: none;
+  align-content: right;
+
 }
+
+
 li a {
   display:block;
 }
