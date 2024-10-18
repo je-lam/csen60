@@ -89,7 +89,7 @@ figcaption ul {
   list-style: none;
   display:flex;
   flex-direction: row;
-  margin-left: 2rem;
+  justify-content: space-evenly;
 }
 
 
