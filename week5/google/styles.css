@@ -1,0 +1,87 @@
+body {
+    font:14px Roboto, Arial, sans-serif;
+}
+
+/* the modern way of doing horizontal layouts (using flex)   */
+ul {
+    display: flex;
+    flex-direction: row; /*by default, display: flex has flex direction row*/
+    list-style: none;
+    /* gap: 16px; */
+    margin-top: 0;
+    margin-bottom:0;
+    padding-left: 20px;
+}
+
+ul#top-right {
+    font-size: 13px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color:#1f1f1f;
+    padding:0 1rem 0 1rem;
+}
+
+a:-webkit-any-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+img {
+    display: flex;
+}
+
+input {
+    margin-top: 1rem;
+    border-radius: 40rem;
+    line-height: 2.5rem;
+    width: 35rem;
+}
+
+section {
+    margin-top: 30px;
+}
+
+main {
+    display: flex;
+    margin-top: 5rem;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+header, footer {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+}
+
+footer {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    bottom: 0;
+    position: absolute;
+    width: 99%;
+    align-items: flex-end;
+    background-color:#f2f2f2;
+    padding: 1rem 0 1rem 0;
+}
+#climate-message {
+    display:flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+/*all buttons on the page will be styled in this fashion.*/
+button {
+    padding: 0.5rem 1rem; /*equivalent to 16px*/
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
