@@ -1,5 +1,5 @@
-const input = document.getElementById("list-input")
-console.log(input.value);
+// const input = document.getElementById("list-input")
+// console.log(input.value);
 
 function addTodo() {
     // console.log("button was clicked!")
