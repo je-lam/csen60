@@ -6,7 +6,7 @@ let parentElement = null;
 const tagLists = Array.from(document.querySelectorAll("article .tags"));
 
 // Search Functions
-
+/** This function allows the website to read tags that are entered into the search bar by the user.*/
 function initializeSearch(newParentElement) {
   const params = new URLSearchParams(window.location.search);
   if (newParentElement === null) {
@@ -23,7 +23,7 @@ function initializeSearch(newParentElement) {
   }
 }
 
-
+/** This function hides articles that do not have the a tag that matches the user's input. */
 function hideArticles() {
   if (searchTags.length === 0) {
     for (const article of document.querySelectorAll("article")) {
@@ -45,6 +45,13 @@ function hideArticles() {
    * else, remove "hidden" from that article's classList
    */
   // write your code here
+  for (const article of document.querySelectorAll("article")) {
+    if (!articlesWithTags.includes(article)) {
+      article.classList.add("hidden")
+    } else {
+      article.classList.remove("hidden")
+    }
+  }
 }
 
 /**
@@ -52,6 +59,7 @@ function hideArticles() {
  * the button will remove the corresponding tag from both the DOM and the searchTags array.
  * This function also calls hideArticles to update the articles displayed after removal.
  */
+/** This function creates a tag that is essential for the website to identify a corresponding button*/
 function createTag(text) {
   /**
    * create a new element called button
@@ -59,6 +67,9 @@ function createTag(text) {
    * set the button's textContent property to text (the passed in argument)
    */
   // write your code here
+  const button = document.createElement("button")
+  button.classList.add("tag")
+  button.textContent = text
 
   function remove() {
     button.remove();
@@ -75,6 +86,8 @@ function createTag(text) {
    * return the button element 
    */
   // write your code here
+  button.addEventListener("click", remove)
+  return button
 }
 
 function findArticlesWithTag(phrase) {
@@ -101,7 +114,7 @@ function addSearchTerm(text) {
 }
 
 // Handlers
-
+/** This function waits for the user to submit their input into the search bar for the website to process it into the addSearchTerm function. */
 function onSearch(event) {
   const input = event.currentTarget;
   /**
@@ -110,6 +123,10 @@ function onSearch(event) {
    * set input value to an empty string
    */
   // write your code here
+  if (event.key === "Enter") {
+    addSearchTerm(input.value)
+    input = ""
+  }
 }
 
 // Main function
