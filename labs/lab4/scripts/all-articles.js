@@ -125,7 +125,7 @@ function onSearch(event) {
   // write your code here
   if (event.key === "Enter") {
     addSearchTerm(input.value)
-    input = ""
+    input.value = ""
   }
 }
 
