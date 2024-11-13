@@ -18,7 +18,7 @@ app.use("/*", serveStatic({
 }))
 
 app.get('/api/todos', (c) => {
-  console.log("fetcg abd retyrbubg todos")
+  console.log("fetch abd retrying todos")
   return c.json(todos)
 })
 
