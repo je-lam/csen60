@@ -29,6 +29,8 @@ https://www.markdownguide.org/basic-syntax/
 ## "Person-In-The-Middle" attack
 * This is when a request/response gets intercepted by an attacker.
   * E.g. You send a private message to Bob but Trudy sees it.
+  * The way it works is that info needs to travel across netowrks.
+  Sometimes, that info needs to pass through a "shady part of town".
   * This is why encryption is so important.
 ### Encryption
 * All about algorithms that make your online messages private
@@ -40,20 +42,15 @@ https://www.markdownguide.org/basic-syntax/
   * Browser and server agree on a KEY
   * Encryption is based on this KEY
   * Key is then handled by SSL
-## Cookies
-* They store user preferences. (e.g. "Remember me")
-* Benefits for users:
-  * User authentication convenience (e.g. "Remember me")
-  * Site Preferences
-  * Contents of shopping carts
-* Benefits for developer
-  * "Improving" usage experience
-    * (Invasive) Ad tracking
-    * Site metrics
-* Cookies can be private if needed
+
 ## Privacy Policy
 * A legal requirement for websites to say what they're doing with your data.
 * What information we collect
 * How long do we hold it
 * Do we delete it
 * **Implied consent/agreement**, thus you don't need to sign anything to agree. Just by using the website you are agreeing.
+
+## Digital certificate
+* Basically verifies a website's identity.
+## Certificate authority:
+* A trusted organization that gives out certificates.
