@@ -97,3 +97,39 @@ How work was split:
 
 ### Andrew's solutions
 * He fixed the JS by adding "defer" (he forgot to add it when linking the JS file)
+
+# PRESENTATION 2: Nike, Reddit, Us
+# Nike
+## Tech used
+* Tailwind CSS
+* React
+* NextJS
+* Vercel
+## Challenges and solutions
+* Neon Database and Vercel server deployment
+  * Connecting database to our front end
+* Looking through documentation
+
+# Reddit
+Notable features:
+* Carousel
+* Toggleable stars
+* Upvote/downvotes
+## Best practices
+* Comments
+* Hierarchy layout with semantic tags
+* Separate Git branches
+* Using Inspector on Reddit.com
+## Challenges and Solutions
+* Overuse of class and IDs which resulted in messiness
+  * StackOverflow
+  * ChatGPT
+  * W3schools
+  * Youtube tutorials
+* Getting the carousel to load on start
+  * Utilizing event listener
+## Key Learningss
+* Collaboration between CSS, JS, and HTML
+* Navigating/teamwork in GitHub
+* Terminal commands
+* Creating comments using JS
