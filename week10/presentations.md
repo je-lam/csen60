@@ -1,5 +1,5 @@
 https://www.markdownguide.org/basic-syntax/
-# Presentation 1: Etsy, Popmart, Twitter, Reddit
+# Presentation Day 1: Etsy, Popmart, Twitter, Reddit
 
 ## Etsy
 ### Web Technologies used
@@ -98,7 +98,7 @@ How work was split:
 ### Andrew's solutions
 * He fixed the JS by adding "defer" (he forgot to add it when linking the JS file)
 
-# PRESENTATION 2: Nike, Reddit, Us
+# PRESENTATION DAY 2: Nike, Reddit, Us
 # Nike
 ## Tech used
 * Tailwind CSS
@@ -133,3 +133,48 @@ Notable features:
 * Navigating/teamwork in GitHub
 * Terminal commands
 * Creating comments using JS
+
+# PRESENTATION DAY 3: Bluey and Pinterest (Ava, Deni, and Isa)
+# Bluey
+## Web techs used: Basic HTML, CSS, and JS
+## Pages implemented
+* Home page
+* Character page
+* Socks page
+* Quiz page
+## Functionalities implemented
+* Carousel (and others)
+## Best practices and resources
+* ChatGPT to catch unknown errors
+* Google, Youtube, W3Docs, and Mozilla Docs for best practices and syntax info
+## Challenges/solutions
+* Loading times would take too long
+  * Solution: Comment out some images in exchange for better webpage performance
+## Key learnings
+* Familiarity with CSS and using Dev Tools
+* Importance of thought-process and planning of scripts
+* Troubleshooting and utilizing outside resources
+
+# Pinterest
+They also used cookies!!!!!
+## Web Techs used
+* Html
+* CSS
+* JS  
+## Best practices used
+* HTML structuring/hierarchy + box method
+* CSS to correct margins and stuff
+## Challenges and solutions
+* Overscoping of website features (scope-creep)
+* Cookies and server
+  * Tutorials on Youtube and W3Schools
+* Time management
+* Merge conflicts
+* Code compatibility
+* Different screen sizes
+* CSS replication
+  * Using dev tools helped a lot along with online documentation
+## Key learnings
+* Communication and time management
+* Working with different webpage layouts and navigating StackOverflow forums
+* Basic HTML and CSS structuring
